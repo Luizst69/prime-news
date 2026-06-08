@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Feira News</title>
+<title>Prime News</title>
 
 <style>
 body {
@@ -12,15 +12,26 @@ font-family: Arial, sans-serif;
 background:#f2f2f2;
 }
 
+/* BANNER */
 header {
-background:#b30000;
+background: linear-gradient(90deg, #b30000, #ff1a1a);
 color:white;
-padding:20px;
+padding:30px 15px;
 text-align:center;
-font-size:30px;
-font-weight:bold;
 }
 
+header h1 {
+margin:0;
+font-size:42px;
+}
+
+header p {
+margin:5px 0 0 0;
+font-size:16px;
+opacity:0.9;
+}
+
+/* MENU */
 nav {
 background:#8c0000;
 padding:10px;
@@ -34,6 +45,7 @@ text-decoration:none;
 font-weight:bold;
 }
 
+/* CONTEÚDO */
 .container {
 max-width:900px;
 margin:auto;
@@ -58,6 +70,7 @@ margin-bottom:10px;
 border-radius:10px;
 }
 
+/* RODAPÉ */
 footer {
 text-align:center;
 padding:20px;
@@ -69,48 +82,46 @@ color:#666;
 </head>
 
 <body>
-<header style="background:#b30000; color:white; padding:25px; text-align:center;">
-  <h1 style="margin:0; font-size:38px;">📰 PRIME NEWS</h1>
-  <p style="margin:5px 0 0 0; font-size:16px;">
-    Portal de notícias do Brasil e do mundo
-  </p>
-</header>
 
+<header>
+<h1>📰 PRIME NEWS</h1>
+<p>Portal de notícias do Brasil e do mundo</p>
+</header>
 
 <nav>
 <a href="#">Brasil</a>
+<a href="#">Mundo</a>
 <a href="#">Política</a>
 <a href="#">Esportes</a>
-<a href="#">Mundo</a>
 <a href="#">Últimas</a>
 </nav>
 
 <div class="container">
 
 <div class="destaque">
-<h2>🔥 Manchete principal</h2>
-<p>Aqui você coloca a notícia principal do dia, estilo jornal grande.</p>
+<h2>🔥 Últimas notícias</h2>
+<p>Acompanhe aqui as principais notícias do Brasil e do mundo em tempo real.</p>
 </div>
 
 <div class="noticia">
-<h3>📌 Notícia 1</h3>
-<p>Texto da notícia aqui. Você pode atualizar sempre que quiser.</p>
+<h3>🌍 Mundo</h3>
+<p>Líderes globais discutem economia e segurança internacional em nova reunião.</p>
 </div>
 
 <div class="noticia">
-<h3>📌 Notícia 2</h3>
-<p>Outra notícia importante aqui.</p>
+<h3>🇧🇷 Brasil</h3>
+<p>Notícias atualizadas sobre política, economia e acontecimentos nacionais.</p>
 </div>
 
 <div class="noticia">
-<h3>📌 Notícia 3</h3>
-<p>Mais uma notícia para deixar o site cheio.</p>
+<h3>⚽ Esportes</h3>
+<p>Últimas informações do futebol brasileiro e internacional.</p>
 </div>
 
 </div>
 
 <footer>
-© 2026 Feira News - Todos os direitos reservados
+© 2026 Prime News - Todos os direitos reservados
 </footer>
 
 </body>
