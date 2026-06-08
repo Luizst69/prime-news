@@ -6,22 +6,38 @@
 <title>Prime News</title>
 
 <style>
-body{margin:0;font-family:Arial;background:#f2f2f2;}
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
 
 header{
-background:linear-gradient(90deg,#b30000,#ff1a1a);
+background:#b30000;
 color:white;
 text-align:center;
 padding:25px;
 }
 
-header h1{margin:0;font-size:40px;}
+header h1{
+margin:0;
+font-size:40px;
+}
 
-.container{max-width:1000px;margin:auto;padding:20px;}
+header p{
+margin:5px 0 0 0;
+opacity:0.9;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
 
 .destaque{
 background:white;
-padding:20px;
+padding:15px;
 border-radius:10px;
 margin-bottom:20px;
 }
@@ -31,19 +47,37 @@ width:100%;
 border-radius:10px;
 }
 
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
 .card{
 background:white;
 padding:15px;
-margin-bottom:10px;
 border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.03);
 }
 
 .card a{
-color:#b30000;
 text-decoration:none;
+color:#b30000;
 font-weight:bold;
 }
+
+footer{
+text-align:center;
+padding:20px;
+font-size:12px;
+color:#666;
+}
 </style>
+
 </head>
 
 <body>
@@ -55,24 +89,45 @@ font-weight:bold;
 
 <div class="container">
 
+<!-- DESTAQUE -->
 <div class="destaque">
 <h2>🔥 Destaque do dia</h2>
 
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80" 
-style="width:100%; border-radius:10px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Brandenburger_Tor_abends.jpg">
 
-<p>Principais notícias do Brasil e do mundo em destaque.</p>
+<p>Principais acontecimentos do Brasil e do mundo em destaque.</p>
 </div>
 
-<div class="card"><a href="noticia1.html">🌍 Mundo</a></div>
-<div class="card"><a href="noticia2.html">🇧🇷 Brasil</a></div>
-<div class="card"><a href="noticia3.html">⚽ Esportes</a></div>
-<div class="card"><a href="noticia4.html">💰 Economia</a></div>
-<div class="card"><a href="noticia5.html">📱 Tecnologia</a></div>
+<!-- NOTÍCIAS -->
+<div class="grid">
+
+<div class="card">
+<h3><a href="noticia1.html">🌍 Mundo</a></h3>
+</div>
+
+<div class="card">
+<h3><a href="noticia2.html">🇧🇷 Brasil</a></h3>
+</div>
+
+<div class="card">
+<h3><a href="noticia3.html">⚽ Esportes</a></h3>
+</div>
+
+<div class="card">
+<h3><a href="noticia4.html">💰 Economia</a></h3>
+</div>
+
+<div class="card">
+<h3><a href="noticia5.html">📱 Tecnologia</a></h3>
+</div>
 
 </div>
+
+</div>
+
+<footer>
+© 2026 Prime News - Todos os direitos reservados
+</footer>
 
 </body>
 </html>
-<img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1000&q=80" 
-style="width:100%; border-radius:10px;">
