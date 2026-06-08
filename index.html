@@ -12,7 +12,6 @@ font-family:Arial;
 background:#f4f4f4;
 }
 
-/* BANNER ÚNICO */
 header{
 background:#b30000;
 color:white;
@@ -25,27 +24,26 @@ margin:0;
 font-size:38px;
 }
 
-/* CONTAINER */
 .container{
 max-width:900px;
 margin:auto;
 padding:15px;
 }
 
-/* UMA IMAGEM SÓ (DESTAQUE) */
+/* DESTAQUE SEM IMAGEM */
 .destaque{
 background:white;
-padding:15px;
+padding:20px;
 border-radius:10px;
 margin-top:15px;
 }
 
-.destaque img{
-width:100%;
-border-radius:10px;
+.destaque h2{
+margin-top:0;
+color:#b30000;
 }
 
-/* NOTÍCIAS */
+/* LISTA DE NOTÍCIAS */
 .noticias{
 display:flex;
 flex-direction:column;
@@ -85,28 +83,16 @@ margin-top:20px;
 
 <div class="container">
 
-<!-- UMA IMAGEM SÓ -->
+<!-- DESTAQUE SEM IMAGEM -->
 <div class="destaque">
-<img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1000&q=80">
-<p>Últimas notícias do Brasil e do mundo</p>
+<h2>🔥 Destaque do dia</h2>
+<p>As principais notícias do Brasil e do mundo atualizadas em tempo real.</p>
 </div>
 
-<!-- LISTA DE NOTÍCIAS -->
+<!-- NOTÍCIAS -->
 <div class="noticias">
 
 <div class="noticia"><a href="noticia1.html">🌍 Mundo</a></div>
 <div class="noticia"><a href="noticia2.html">🇧🇷 Brasil</a></div>
 <div class="noticia"><a href="noticia3.html">⚽ Esportes</a></div>
-<div class="noticia"><a href="noticia4.html">💰 Economia</a></div>
-<div class="noticia"><a href="noticia5.html">📱 Tecnologia</a></div>
-
-</div>
-
-</div>
-
-<footer>
-© 2026 Prime News
-</footer>
-
-</body>
-</html>
+<div
